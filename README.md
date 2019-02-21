@@ -1,5 +1,6 @@
 # Docker-Commands
 List of useful Docker Commands
+https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
  
 ### Docker Build and Ship
 
@@ -27,5 +28,6 @@ List of useful Docker Commands
 |  /bin/sh | the command to run inside the container |
  
  ### Sample Docker Run Command
- 
+| Command | Description |
+| ------- | ----------- | 
 |  `docker run -rm -it --name <container_name> -p 9999:8080 <image_name>`  | Sample command|

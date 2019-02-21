@@ -43,7 +43,6 @@ https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 | `docker rm <container_name>` | Removes one or more containers  |
 | `docker rmi <image_name>` |   Removes one or more images |
 | `docker stop <container_name>` | Stops one container |
-
 | `docker stop $(docker ps -a -q)` | Stops all running containers |
 | `docker kill <container_name>` |  Direct way to kill containers |
 | `docker kill $(docker ps -q)` | Kill all running containers  |

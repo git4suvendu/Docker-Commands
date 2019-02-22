@@ -20,7 +20,7 @@ https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 | Command | Description |
 | ------- | ----------- |
 |  docker run |         |
-|        -rm  | remove container automatically after it exits |
+|        --rm  | remove container automatically after it exits |
 |        -it  | connect the container to terminal |
 |        -d  | To start a container in detached mode|
 |  --name <container name>  | name the container |

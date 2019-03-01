@@ -24,7 +24,7 @@ https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 |        -it  | connect the container to terminal |
 |        -d  | To start a container in detached mode|
 |  --name <container name>  | name the container |
-|   -p 5000:80  | expose port 5000 externally and map to port 80. Port 5000: Application port which is in docker image & Port 80: Container port|
+|   -p 5000:8080  | expose port 8080 externally and map to port 5000. Port 5000: Container port, access application from this port   & Port 8080: Application port which is in docker image and running within container|
  | -v ~/dev:/code | create a host mapped volume inside the container |
 | alpine:3.4 | the image from which the container is instantiated|
 |  /bin/sh | the command to run inside the container |

@@ -51,3 +51,4 @@ https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 | `docker kill $(docker ps -q)`       | Kill all running containers  |
 | `docker rm $(docker ps -a -q)`      | Delete all stopped containers  |
 | `docker rmi $(docker images -q)`      | Delete all images |
+| `docker exec -it <container name> /bin/bash`      | To get a bash shell inside the container |

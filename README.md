@@ -52,3 +52,4 @@ https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf
 | `docker rm $(docker ps -a -q)`      | Delete all stopped containers  |
 | `docker rmi $(docker images -q)`      | Delete all images |
 | `docker exec -it <container name> /bin/bash`      | To get a bash shell inside the container |
+| `docker rmi $(docker images -q -f dangling=true)`      | Delete dangling docker images|
